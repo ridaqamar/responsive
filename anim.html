@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Textyle.js jQuery Plugin Example</title>
+		<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+<div class="jquery-script-center">
+
+		<p class="ex1">TEXTYLE</p>
+		<p class="ex2">Animation</p>
+		<p class="desc">- jQueryScript.NET -</p>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="textyle.min.js"></script>
+		<script>
+			$(window).on('load',function(){
+				//simple use
+				$('.ex1').textyle();
+				$('.desc').textyle();
+				//you can select options or add callback
+				$('.ex2').textyle({
+									duration : 400,
+									delay : 100,
+									easing : 'swing',
+									callback : function(){
+										$(this).css({
+											color : 'coral',
+											transition : '1s',
+										});
+										$('.desc').css('opacity',1);
+									}
+								});
+			});
+		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="textyle.min.js"></script>
+		<script>
+			$(window).on('load',function(){
+				//simple use
+				$('.ex1').textyle();
+				$('.desc').textyle();
+				//you can select options or add callback
+				$('.ex2').textyle({
+									duration : 400,
+									delay : 100,
+									easing : 'swing',
+									callback : function(){
+										$(this).css({
+											color : 'coral',
+											transition : '1s',
+										});
+										$('.desc').css('opacity',1);
+									}
+								});
+			});
+		</script>
+	</body>
+</html>
