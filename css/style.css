@@ -22,7 +22,9 @@ footer li a{
 header{
   width: 102%;
 }
-
+.page-heading{
+  width:100%;
+}
 body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
@@ -1088,4 +1090,14 @@ blockquote {
 
 footer p{
   font-size: 15px;
+}
+
+
+
+
+
+
+
+.news{
+  margin-left: 8px;
 }
