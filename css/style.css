@@ -1109,3 +1109,36 @@ and (max-device-width : 1024px)  {
     width: 100%;
   }
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+  .page-head{
+    width: 100%;
+  }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+  .page-head{
+    width: 100%;
+  }
+}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+  .page-head{
+    width: 100%;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+  .page-head{
+    width: 100%;
+  }
+}
