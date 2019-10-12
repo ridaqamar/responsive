@@ -1142,3 +1142,29 @@ and (max-device-width : 568px) {
     width: 100%;
   }
 }
+
+.gallery a{
+  color: red;
+  font-size: 18px;
+}
+.gallery a:hover{
+  color: #ff6f00;
+  opacity: 0.8;
+  text-decoration: underline;
+  text-decoration-color: blueviolet;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
