@@ -1183,5 +1183,8 @@ and (max-device-width : 568px) {
 
 .flex-container > div {
   width: 150px;
-  margin: 8px;
+}
+
+.thumbnail-gallery{
+  margin-top: 70px;
 }
