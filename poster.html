@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="plugins/slick/slick.css">
     <!-- themefy-icon -->
     <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+    <link href="Fullscreen-Image-Pan-Zoom-Plugin-With-jQuery-pan-js/dist/css/jquery.pan.css" rel="stylesheet" type="text/css"/>
 
     <!-- Main Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -70,7 +71,7 @@
                 <p class="poster-btn"><button>Buy Now!</button></p>
             </div>
             <div class="col-md-12 pic" align="center">
-                <img class="img-responsive pad" src="images/imgs/poster.png" alt="Photo">
+                <img class="img-responsive pad pan page-head" src="images/imgs/poster.png" alt="Photo">
             </div>
         </div>
         </div>
@@ -137,6 +138,15 @@
 
     <!-- Main Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="Fullscreen-Image-Pan-Zoom-Plugin-With-jQuery-pan-js/src/js/jquery.pan.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		$(".pan").pan();
+	})
+</script>
+
 <script>
     $(".pic").hide();
 
