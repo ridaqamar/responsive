@@ -1108,6 +1108,7 @@ and (max-device-width : 1024px)  {
   .page-head{
     width: 100%;
   }
+  
 }
 
 @media only screen 
@@ -1117,6 +1118,9 @@ and (-webkit-device-pixel-ratio : 3) {
   .page-head{
     width: 100%;
   }
+  .gapping{
+    display: none;
+  }
 }
 
 @media only screen 
@@ -1124,6 +1128,9 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) { 
   .page-head{
     width: 100%;
+  }
+  .gapping{
+    display: none;
   }
 }
 
@@ -1133,6 +1140,9 @@ and (max-device-width : 736px) {
   .page-head{
     width: 100%;
   }
+  .gapping{
+    display: none;
+  }
 }
 
 @media only screen 
@@ -1140,6 +1150,9 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) { 
   .page-head{
     width: 100%;
+  }
+  .gapping{
+    display: none;
   }
 }
 
@@ -1166,7 +1179,7 @@ and (max-device-width : 568px) {
 .modal-body{
   position: relative;
   -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
+  flex:  1 auto;
   padding: 0rem;
 }
 
@@ -1183,8 +1196,9 @@ and (max-device-width : 568px) {
 
 .flex-container > div {
   width: 150px;
+height: 130px;
 }
 
-.thumbnail-gallery{
-  margin-top: 70px;
+.n-g > div {
+  margin-bottom: 10px;
 }
